@@ -4,61 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login - Games Shop</title>
-  <link rel="stylesheet" href="global.css">
-  <style>
-    /* Layout extra para centrar el login */
-    .screen {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: var(--muted);
-      padding: 1rem;
-    }
-    .card-header {
-      text-align: center;
-      margin-bottom: 1rem;
-    }
-    .icon-container {
-      display: flex;
-      justify-content: center;
-      margin-bottom: 1rem;
-    }
-    .icon-circle {
-      background-color: var(--primary);
-      border-radius: 50%;
-      padding: 0.75rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .icon-circle span {
-      font-size: 2rem;
-      color: var(--primary-foreground);
-    }
-    .card-title {
-      font-size: 1.5rem;
-      font-weight: bold;
-    }
-    .card-description {
-      color: var(--muted-foreground);
-      font-size: 0.95rem;
-    }
-    .form-group {
-      margin-bottom: 1rem;
-    }
-    .button.w-full {
-      width: 100%;
-    }
-  </style>
+  <link rel="stylesheet" href="css/global.css">
+  
 </head>
-<body>
+<body class="index-style">
   <div class="screen">
     <div class="card" style="max-width: 400px; width: 100%;">
       <!-- Header -->
       <div class="card-header">
         <div class="icon-container">
-          <img src="fotos\LogoGameShop.png" alt="Games Shop Logo" style="width: 200px; height: 200px;">
+          <img src="images/LogoGameShop.png" alt="Games Shop Logo" style="width: 200px; height: 200px;">
           
         </div>
         <h1 class="card-title">Inicia sesión</h1>
@@ -88,7 +43,7 @@
               <!-- Enlace de registro -->
   <div style="text-align: center; margin-top: 1rem;">
     <p>¿No tienes cuenta?
-      <a href="register.html" class="link">Regístrate</a>
+      <a href="pages/register.html" class="link">Regístrate</a>
     </p>
   </div>
     </div>
@@ -102,7 +57,7 @@
 
     if (email && password) {
       // Redirige al home.html
-      window.location.href = "home.html";
+      window.location.href = "pages/home.html";
     } else {
       alert("Completa todos los campos.");
     }
