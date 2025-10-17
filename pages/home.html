@@ -13,14 +13,22 @@
     <div class="logo-container">
               <div class="icon-container">
           <img src="../images\LogoGameShop.png" alt="Games Shop Logo" style="width: 100px; height: auto;">
+          
         </div>
+        
       <h1>Pagina Principal</h1>
+      
     </div>
+    
     <div class="flex">
+          <button id="theme-toggle" class="button-sm" aria-label="Cambiar tema">
+          🌙
+          </button>
       <input type="text" id="search" class="search-input" placeholder="Buscar productos...">
       <button class="button-sm" onclick="toggleCart()">🛒 Carrito (<span id="cart-count">0</span>)</button>
       <button class="button-sm" onclick="logout('Cerrar sesión')">🚪 Cerrar Sesión</button>
     </div>
+
   </header>
 
   <!-- Contenedor principal -->
@@ -304,7 +312,7 @@
 
 <!-- Importar JS -->
 <script src="../js/home.js"></script>
-
+<script src="../js/theme.js"></script>
 
 </body>
 </html>
