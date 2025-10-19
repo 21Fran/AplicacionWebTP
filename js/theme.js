@@ -1,16 +1,18 @@
 const toggleButton = document.getElementById('theme-toggle');
-const rootElement = document.documentElement;
+const body = document.body; // solo cambiará el fondo del body
 
+// Cargar tema guardado
 const savedTheme = localStorage.getItem('theme');
 if (savedTheme === 'dark') {
-  rootElement.classList.add('dark');
+  body.classList.add('dark-bg');
   toggleButton.textContent = '☀️';
 }
 
+// Cambiar tema al hacer click
 toggleButton.addEventListener('click', () => {
-  rootElement.classList.toggle('dark');
+  body.classList.toggle('dark-bg');
 
-  if (rootElement.classList.contains('dark')) {
+  if (body.classList.contains('dark-bg')) {
     toggleButton.textContent = '☀️';
     localStorage.setItem('theme', 'dark');
   } else {
