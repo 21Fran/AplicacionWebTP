@@ -102,3 +102,46 @@ function checkout() {
 
 // Inicializar contador
 updateCartCount();
+
+
+//Creacion desde json
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("../data/productos.json")
+    .then(res => res.json())
+    .then(data => mostrarProductos(data))
+    .catch(err => console.error("Error cargando JSON:", err));
+});
+
+function mostrarProductos(data) {
+  const grid = document.getElementById("product-grid");
+  grid.innerHTML = ""; // limpiar
+
+  for (const categoria in data) {
+    data[categoria].forEach(prod => {
+      const card = document.createElement("div");
+      card.classList.add("product-card");
+      card.dataset.category = categoria;
+
+      card.innerHTML = `
+        <div class="product-placeholder">
+          <img src="${prod.imagen}" alt="${prod.nombre}">
+        </div>
+        <h4>${prod.nombre}</h4>
+        <div class="flex">⭐ ${prod.rating} (${prod.reviews})</div>
+        <div class="flex justify-between">
+          <span>$${prod.precio}</span>
+          <button class="button-sm" onclick="addToCart('${prod.nombre}', '$${prod.precio}')">🛒 Agregar</button>
+        </div>
+      `;
+
+      grid.appendChild(card);
+    });
+  }
+
+  actualizarContadorProductos();
+}
+
+function actualizarContadorProductos() {
+  const total = document.querySelectorAll(".product-card").length;
+  document.getElementById("product-count").textContent = `${total} productos encontrados`;
+}
