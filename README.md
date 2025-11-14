@@ -3,67 +3,50 @@
 Trabajo de Francisco Marchena alumno de analista de sistemas
 
 ## Tecnologias Utilizadas
-HTML: para la estructura y contenido de las páginas.
-CSS: para el diseño y estilo personalizado.
-JavaScript: para el manejo de las actividades e interactividad.
-Roadmap del Proyecto
-
-
-
-## Tecnologías Utilizadas
-- HTML: para la estructura de las páginas.
-- CSS: para el estilo personalizado.
-- JavaScript: para el manejo de las actividades.
+HTML: Para la estructura y contenido de las páginas.
+CSS: Para el diseño y estilo personalizado.
+JavaScript: Para el manejo de las actividades.
 
 ## Roadmap del Proyecto
-### Planificación del proyecto.
-Definición del objetivo del sitio.
-Boceto del diseño y estructura de las páginas.
-Identificación de las funcionalidades principales.
-
-3. Estructura inicial (HTML).
-4. Diseño visual (CSS).
-5. Interactividad (JavaScript).
-6. Revisión y mejoras.
-   
-## Planificación del proyecto
+### 1. Planificación del proyecto
 
 Definición del objetivo del sitio.
 
 Boceto del diseño y estructura de las páginas.
 
-Identificación de las funcionalidades principales.
+Identificación de las funcionalidades principales de la tienda online.
 
-### Estructura inicial (HTML)
+### 2. Estructura inicial (HTML)
 
 Creación de las páginas principales.
 
 Organización del contenido y enlaces entre secciones.
 
-### Diseño visual (CSS)
+### 3. Diseño visual (CSS)
 
 Aplicación del estilo personalizado.
 
-Adaptación del diseño para distintos dispositivos (responsive).
+Diseño de interfaces y objetos.
 
-Elección de paleta de colores y tipografía.
+Elección de paleta de colores y temas.
 
-### Interactividad (JavaScript)
+### 4. Interactividad (JavaScript)
 
 Implementación de las actividades dinámicas.
 
-Validaciones o manejo de eventos en las páginas.
+Validaciones y manejo de eventos en las páginas.
 
 Pruebas de funcionalidad.
 
-### Revisión y mejoras
+### 5. Revisión y mejoras
 
 Corrección de errores y ajustes visuales.
 
 Optimización del código.
 
-Preparación para la entrega o publicación.
+Preparación para la entrega del trabajo.
 
 
-## Link:
+## Link para probar la app:
 https://aplicacion-web-tp.vercel.app/
+
