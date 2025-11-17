@@ -50,12 +50,14 @@ JavaScript: Para el manejo de las actividades.
 
 ## Mejoras:
 Cambie el formato de la pagina principal completamente para que sea mas parecido a una pagina de venta de videojuegos,
+Tambien Funcion de busqueda arreglada porque no funcionaba correctamente,
 Tambien la manera de ver las categorias ya no estan al costado y fuera de lugar ahora estan arriba de todo, agregue un carousel para ver ofertas y fotos de productos.
 Algunos cambios en el detalle de CSS agregando el boton de Modo Noche y Dia.
 
 
 ## Link para probar la app:
 https://aplicacion-web-tp.vercel.app/
+
 
 
 
