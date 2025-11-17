@@ -120,7 +120,10 @@ function mostrarProductos(data) {
     data[categoria].forEach(prod => {
       const card = document.createElement("div");
       card.classList.add("product-card");
-      card.dataset.category = categoria;
+
+      //Busqueda 
+      card.dataset.name = prod.nombre.toLowerCase();
+      card.dataset.category = categoria.toLowerCase();
 
       card.innerHTML = `
         <div class="product-placeholder">
