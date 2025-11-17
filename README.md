@@ -47,7 +47,7 @@ Optimización del código.
 Preparación para la entrega del trabajo.
 
 
-##Mejoras:
+## Mejoras:
 Cambie el formato de lapagina principal completamente ,
 La manera de ver las categorias , agregue un carousel para ver ofertas
 y detalles de CSS , Modo noche y Dia
@@ -55,5 +55,6 @@ y detalles de CSS , Modo noche y Dia
 
 ## Link para probar la app:
 https://aplicacion-web-tp.vercel.app/
+
 
 
