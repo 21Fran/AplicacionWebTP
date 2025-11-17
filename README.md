@@ -2,10 +2,7 @@
 ## TP de Aplicaciones Web 1 de la IES 21
 Trabajo de Francisco Marchena alumno de analista de sistemas
 
-## Tecnologias Utilizadas
-HTML: Para la estructura y contenido de las páginas.
-CSS: Para el diseño y estilo personalizado.
-JavaScript: Para el manejo de las actividades.
+
 
 ## Roadmap del Proyecto
 ### 1. Planificación del proyecto
@@ -46,15 +43,20 @@ Optimización del código.
 
 Preparación para la entrega del trabajo.
 
+## Tecnologias Utilizadas
+HTML: Para la estructura y contenido de las páginas.
+CSS: Para el diseño y estilo personalizado.
+JavaScript: Para el manejo de las actividades.
 
 ## Mejoras:
-Cambie el formato de lapagina principal completamente ,
-La manera de ver las categorias , agregue un carousel para ver ofertas
-y detalles de CSS , Modo noche y Dia
+Cambie el formato de la pagina principal completamente para que sea mas parecido a una pagina de venta de videojuegos,
+Tambien la manera de ver las categorias ya no estan al costado y fuera de lugar ahora estan arriba de todo, agregue un carousel para ver ofertas y fotos de productos.
+Algunos cambios en el detalle de CSS agregando el boton de Modo Noche y Dia.
 
 
 ## Link para probar la app:
 https://aplicacion-web-tp.vercel.app/
+
 
 
 
