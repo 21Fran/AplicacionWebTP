@@ -1,6 +1,6 @@
 ﻿# AplicacionWebTP
 ## TP de Aplicaciones Web 1 de la IES 21
-Trabajo de Francisco Marchena alumno de analista de sistemas
+Trabajo de Francisco Marchena estudiante de Analista de Sistemas 
 
 
 
@@ -57,6 +57,7 @@ Algunos cambios en el detalle de CSS agregando el boton de Modo Noche y Dia.
 
 ## Link para probar la app:
 https://aplicacion-web-tp.vercel.app/
+
 
 
 
